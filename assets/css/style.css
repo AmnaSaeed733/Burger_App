@@ -1,0 +1,415 @@
+/* HEADER */
+header {
+    background: url("hero-bg.jpg") no-repeat center !important;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+.navicons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navicons i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navicons i:hover {
+    color: #FFD700;
+}
+
+.navicons button {
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px #776607;
+}
+
+.navicons button:hover {
+    background-color: #a18f28;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navicons button:active {
+    transform: scale(0.9);
+}
+
+.h-text {
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+    width: 50%;
+}
+
+.h-text p {
+    font-family: "Dancing Script", serif;
+    font-size: 4vw;
+}
+
+.h-text h4 {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    /* width: 60vh;
+    padding: 0px 0px 0px 190px; */
+}
+
+.h-text button {
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px #776607;
+}
+
+.h-text button:hover {
+    background-color: #a18f28;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ah-text button:active {
+    transform: scale(0.9);
+}
+
+/* MENU CARDS */
+.menu {
+    margin: auto;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.menu h1 {
+    font-family: "Dancing Script", serif;
+    margin: auto;
+    width: 30%;
+}
+
+.menu li {
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.all {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 25px;
+    width: 45px;
+    text-align: center;
+    color: white;
+    background-color: #222831;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.menucards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    width: 32vh;
+    background: linear-gradient(to bottom, #f1f2f3 25vh, #222831 34px);
+}
+
+.cardimg {
+    background: #f1f2f3;
+    border-radius: 0px 0px 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+    padding: 25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardimg:hover img {
+    transform: scale(1.2);
+}
+
+#img {
+    max-width: 100%;
+    max-height: 145px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardtext h1 {
+    font-family: "Dancing Script", serif;
+}
+
+.cardtext {
+    background-color: #222831;
+    color: white;
+    padding: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.price i {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #FFD700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT US */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    text-align: center;
+    background-color: #222831;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.about img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about2 {
+    color: white;
+    max-width: 464px;
+    margin: auto;
+}
+
+.about2 h1 {
+    font-family: "Dancing Script", serif;
+}
+
+.about2 p {
+    font-size: large;
+}
+
+.about button {
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px #776607;
+}
+
+.about button:hover {
+    background-color: #a18f28;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.about button:active {
+    transform: scale(0.9);
+}
+
+/* BOOKING TABLE */
+.bookingtable {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bookingtable h1 {
+    font-family: "Dancing Script", serif;
+    font-size: 2em;
+}
+
+.bookingtable input {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: large;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    outline: none;
+}
+
+.bookingtable input:focus {
+    border-color: #fdf250;
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.5);
+    transform: scale(1.05);
+}
+
+.bookingtable input:focus::placeholder {
+    color: transparent;
+}
+
+.bookingtable button {
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px #776607;
+    font-size: 1.1em;
+}
+
+.bookingtable button:hover {
+    background-color: #a18f28;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.bookingtable button:active {
+    transform: scale(0.9);
+}
+
+/* FOOTER */
+footer {
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.fa-linkedin:hover {
+    background-color: #0077B5;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background-color: #4267b3;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background-color: #ee2a7b;
+    color: white;
+}
+
+.fa-pinterest:hover {
+    background-color: #E60023;
+    color: white;
+}
+
+.footer2 {
+    margin-top: 70px;
+    font-size: smaller;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .h-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar ul,
+    .navicons i {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .about img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .h-text p {
+        font-size: 2em;
+    }
+
+    .menu ul {
+        gap: 5px;
+    }
+
+    .about img {
+        max-width: 250px;
+    }
+}
